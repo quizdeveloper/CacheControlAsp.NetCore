@@ -1,0 +1,14 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="list-image">
+        <ul>
+            @for (var i = 1; i <= 50; i++)
+            {
+            <li>
+                <img src="~/images/@(i).jpg" />
+            </li>
+            }
+        </ul>
+    </div>
